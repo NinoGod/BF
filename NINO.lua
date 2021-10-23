@@ -1,3 +1,17 @@
+_G.Keys = "NINO-GHDO-K1KF-KFD2"
+
+
+if _G.Keys == "NINO-GHDO-K1KF-KFD2" then
+    warn("Loading HEAVEN HUB")
+end
+
+if _G.Keys ~= "NINO-GHDO-K1KF-KFD2" then
+    game.Players.LocalPlayer:Kick("HWIDไม่ตรงไอควาย")
+end
+
+
+
+
 NANE = "HEAVEN HUB - Test Version"
 
 if game.CoreGui:FindFirstChild(NANE) then
@@ -18,12 +32,6 @@ LightContrast = Color3.fromRGB(20, 20, 20),
 DarkContrast = Color3.fromRGB(14, 14, 14),  
 TextColor = Color3.fromRGB(255, 255, 255)
 }
-
-
-
-
-_G.Keys = "NINO-GHDO-K1KF-KFD2"
-
 
 
 
@@ -1354,7 +1362,7 @@ end)
 
 
 
-warn("Loading HEAVEN HUB")
+
 
 warn("Anti AFK Actived")
 
