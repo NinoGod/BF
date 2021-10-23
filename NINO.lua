@@ -1,6 +1,3 @@
-_G.Keys = "NINO-GHDO-K1KF-KFD2"
-
-
 if _G.Keys == "NINO-GHDO-K1KF-KFD2" then
     warn("Loading HEAVEN HUB")
 end
